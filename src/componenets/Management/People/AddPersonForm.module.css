@@ -1,0 +1,21 @@
+@import "../../../styles/vars.css";
+
+.plat {
+  display: flex;
+  justify-content: space-between;
+
+  /* border: 1px solid var(--primary); */
+}
+
+.label {
+  margin: auto 10px;
+}
+
+.checkBox {
+  height: 15px;
+  width: 15px;
+
+  margin: auto 10px;
+
+  justify-self: end;
+}

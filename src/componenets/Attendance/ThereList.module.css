@@ -1,0 +1,45 @@
+@import "../../styles/vars.css";
+
+.title {
+  text-align: center;
+  color: var(--primary);
+  font-size: 320%;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1200px) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.department {
+  color: var(--primary);
+}
+
+.departmentSection {
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.departmentList {
+  padding: 10px;
+
+  width: fit-content * 1.5;
+
+  border: 1px var(--secondary) solid;
+}
+
+.thereItem {
+  margin-bottom: 5px;
+}

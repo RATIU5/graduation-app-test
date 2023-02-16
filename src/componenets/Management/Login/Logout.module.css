@@ -1,0 +1,14 @@
+.logoutForm {
+  margin: auto 0;
+}
+
+.logout {
+  padding: 7px;
+  font-size: medium;
+
+  cursor: pointer;
+
+  background-color: white;
+  border: 1px red solid;
+  border-radius: 25px;
+}

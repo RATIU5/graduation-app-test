@@ -1,0 +1,30 @@
+@import "../../styles/vars.css";
+
+.table {
+  margin: 10px auto;
+  padding: 10px;
+
+  text-align: start;
+
+  border: 1px solid var(--primary);
+}
+
+.depBtn {
+  height: 40px;
+  padding: 2px 8px;
+
+  border: 1px solid var(--primary);
+  border-radius: 3px;
+
+  color: var(--primary);
+  background-color: white;
+}
+.depBtn:hover {
+  border: 3px solid white;
+  border-radius: 7px;
+
+  cursor: pointer;
+
+  color: white;
+  background-color: var(--primary);
+}

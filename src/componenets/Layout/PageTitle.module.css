@@ -1,0 +1,10 @@
+@import "../../styles/vars.css";
+
+.header {
+  margin-top: 0;
+
+  color: var(--primary);
+
+  font-size: xx-large;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+@import "../../styles/vars.css";
+.tabs {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tab {
+  height: 30px;
+
+  padding: 5px 15px;
+
+  font-size: large;
+
+  border: none;
+  border-radius: 0;
+
+  background-color: white;
+}
+
+.active {
+  color: white;
+  background-color: var(--primary);
+}
